@@ -1,62 +1,75 @@
 
 body {
-    font-family: 'Lato', sans-serif;
-    color:black;
+    font-family: "Lato", sans-serif;
+    color: black;
     font-weight: 400;
 }
+
 .title-logo {
-    margin-top:20px;
-    width:30%;
+    margin-top: 20px;
+    width: 30%;
 }
+
 .title-super {
-    font-size:60px;
+    font-size: 60px;
     
 }
+
 .text-muted {
-    color:#7d97ad;
+    color: #7d97ad;
 }
+
 .text-thin {
     font-weight: 300;
 }
+
 .title-description{
-    text-align:right;
+    text-align: right;
     padding: 0px;
     margin-left: 19%;
 }
+
 .separator{
     border-color: #2d3c49;
 }
 
-@media screen and (max-width:500px){
+@media screen and (max-width: 500px){
+
     h1{
-        font-size:25px;
-    }
-    h2{
-        font-size:20px;
-    }
-    h3{
-       font-size:15px;
-    }
-    h4{
-        font-size:10px;
+        font-size: 25px;
     }
 
-    #logoImage{
-        width:50%;
+    h2{
+        font-size: 20px;
     }
+
+    h3{
+       font-size: 15px;
+    }
+
+    h4{
+        font-size: 10px;
+    }
+
+    .logoImage{
+        width: 50%;
+    }
+
     .title-description{
         margin-left: 15%;
     }
        
 }
-@media screen and (min-width:501px) and (max-width:800px){
+@media screen and (min-width: 501px) and (max-width: 800px){
+
    .inner-container{
-       display:flex;
+       display: flex;
        margin-bottom: 3%;
    }
+
    .project-description{
-       order:1;
-       margin-left:5%;
+       order: 1;
+       margin-left: 5%;
    }
    
    .title-description{
